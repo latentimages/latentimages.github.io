@@ -1,0 +1,64 @@
+.contact-form1-contact1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-form1-max-width {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact-form1-container {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+.contact-form1-section-title {
+  align-self: flex-start;
+}
+.contact-form1-container1 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-form1-input {
+  width: 100%;
+  align-self: flex-start;
+  justify-content: space-between;
+}
+.contact-form1-text-input {
+  flex: 1;
+}
+.contact-form1-input1 {
+  width: 100%;
+  align-self: flex-start;
+  justify-content: space-between;
+}
+.contact-form1-text-input1 {
+  flex: 1;
+}
+.contact-form1-checkbox {
+  align-self: flex-start;
+}
+.contact-form1-button {
+  align-self: flex-start;
+}
+@media(max-width: 991px) {
+  .contact-form1-input {
+    align-items: center;
+    flex-direction: row;
+  }
+  .contact-form1-input1 {
+    align-items: center;
+    flex-direction: row;
+  }
+  .contact-form1-checkbox {
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+  }
+}
