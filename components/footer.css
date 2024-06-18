@@ -146,3 +146,8 @@
     align-items: center;
   }
 }
+@media(max-width: 430px) {
+  .footer-container {
+    padding: var(--dl-space-space-unit);
+  }
+}

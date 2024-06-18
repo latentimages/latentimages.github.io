@@ -549,7 +549,7 @@
     width: 100%;
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 430px) {
   .thq-flex-column {
     gap: var(--dl-space-space-unit);
   }
