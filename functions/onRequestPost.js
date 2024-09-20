@@ -1,5 +1,5 @@
 import { EmailMessage } from "cloudflare:email";
-import { createMimeMessage } from "mimetext";
+//import { createMimeMessage } from "mimetext";
 
 export async function onRequestPost(context) {
     try {
@@ -12,19 +12,19 @@ export async function onRequestPost(context) {
         },
       });*/
 
-    const msg = createMimeMessage();
+    /*const msg = createMimeMessage();
         msg.setSender({ name: "GPT-4", addr: "contact@cinematicimpact.com" });
         msg.setRecipient("tal@talazar.net");
         msg.setSubject("An email generated in a worker");
         msg.addMessage({
         contentType: 'text/plain',
         data: pretty
-   });
+   });*/
 
    var message = new EmailMessage(
     "contact@cinematicimpact.com",
-    "tal@talazar.net",
-    msg.asRaw()
+    "tal@talazar.net"
+    //msg.asRaw()
   );
   try {
         await env.SEB.send(message);
