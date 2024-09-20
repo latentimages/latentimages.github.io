@@ -4,7 +4,7 @@ export async function onRequestPost(context) {
     try {
         console.log("here");
     } catch (err) {
-        console.log("there);
+        console.log("here again");
     }
 
     return;
