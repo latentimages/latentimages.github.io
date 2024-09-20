@@ -2,8 +2,10 @@
 
 export async function onRequestPost(context) {
     try {
-        return "this works"
+        console.log("here");
     } catch (err) {
-
+        console.log("there);
     }
+
+    return;
   }
