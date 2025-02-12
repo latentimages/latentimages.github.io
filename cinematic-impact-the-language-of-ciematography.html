@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Wed Feb 12 2025 20:51:22 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Wed Feb 12 2025 20:58:19 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="67acbc74837fa679642f14d2" data-wf-site="67acb5ec0ea0a8335ba56106">
 <head>
   <meta charset="utf-8">
@@ -227,7 +227,7 @@ svg.trapezoidal-horizintal{
         <h4 class="heading-5">Reach Out</h4>
         <p class="paragraph-4">Cinematic Impact workshops are offered to educational institutions, companies and organizations of all types. Individuals are welcome to reach out too!</p>
         <div class="form-block w-form">
-          <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form-2" data-wf-page-id="67acbc74837fa679642f14d2" data-wf-element-id="2acfd639-9ffc-2554-3aee-0dd91b9f2026"><label for="name" class="field-label">Name</label><input class="w-input" maxlength="256" name="name" data-name="Name" placeholder="" type="text" id="name"><label for="email" class="field-label-2">Email Address</label><input class="w-input" maxlength="256" name="email" data-name="Email" placeholder="" type="email" id="email" required=""><label for="field" class="field-label-2-copy-copy">Organization Industry</label><select id="field" name="field" data-name="Field" required="" class="w-select">
+          <form id="email-form" name="email-form" data-name="Email Form" action="https://emailhandler.tal-344.workers.dev" method="post" class="form-2" data-wf-page-id="67acbc74837fa679642f14d2" data-wf-element-id="2acfd639-9ffc-2554-3aee-0dd91b9f2026"><label for="name-3" class="field-label">Name</label><input class="w-input" maxlength="256" name="name" data-name="name" placeholder="" type="text" id="name-3"><label for="email-2" class="field-label-2">Email Address</label><input class="w-input" maxlength="256" name="email" data-name="email" placeholder="" type="email" id="email-2" required=""><label for="industry" class="field-label-2-copy-copy">Organization Industry</label><select id="industry" name="industry" data-name="industry" required="" class="w-select">
               <option value="Film">Film</option>
               <option value="Acting">Acting</option>
               <option value="Journalism">Journalism</option>
@@ -238,14 +238,14 @@ svg.trapezoidal-horizintal{
               <option value="Business">Business</option>
               <option value="Education">Education</option>
               <option value="Other">Other</option>
-            </select><label for="field-2" class="field-label-2-copy">Organization Type</label><select id="field-2" name="field-2" data-name="Field 2" required="" class="w-select">
+            </select><label for="type" class="field-label-2-copy">Organization Type</label><select id="type" name="type" data-name="type" required="" class="w-select">
               <option value="Academic Institution">Academic Institution</option>
               <option value="Non-Academic School">Non-Academic School</option>
               <option value="Community Organization">Community Organization</option>
               <option value="Company">Company</option>
               <option value="Convention or Festival">Convention or Festival</option>
               <option value="Other">Other</option>
-            </select><label for="name-2" class="field-label-copy">Organization Website (optional)</label><input class="w-input" maxlength="256" name="name-2" data-name="Name 2" placeholder="" type="text" id="name-2"><label for="field-3" class="field-label">Additional Information (optional)</label><textarea placeholder="Example Text" maxlength="5000" id="field-3" name="field-3" data-name="Field 3" class="w-input"></textarea><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Submit"></form>
+            </select><label for="website" class="field-label-copy">Organization Website (optional)</label><input class="w-input" maxlength="256" name="website" data-name="website" placeholder="" type="text" id="website"><label for="info" class="field-label">Additional Information (optional)</label><textarea id="info" name="info" maxlength="5000" data-name="info" placeholder="Example Text" class="w-input"></textarea><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Submit"></form>
           <div class="w-form-done">
             <div>Thank you! Your submission has been received!</div>
           </div>
@@ -284,6 +284,7 @@ svg.trapezoidal-horizintal{
     const showVideoConsent = localStorage.getItem('showVideos'); // Alternatively, you can bind showVideoConsent to your preferred cookie consent.
     const placeholders = document.querySelectorAll('[video-component="placeholder"]');
     const videoContainers = Array.from(document.querySelectorAll('[video-component="container"]'));
+				const urlParams = new URLSearchParams(window.location.search);
     // Initialize Plyr for components without a placeholder
     videoContainers.forEach(function (container, index) {
       const placeholder = container.querySelector('[video-component="placeholder"]');
