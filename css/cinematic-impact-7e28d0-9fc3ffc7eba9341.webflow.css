@@ -1590,7 +1590,10 @@ p {
 .link-block {
   pointer-events: auto;
   color: #000;
+  flex-flow: column;
+  align-items: center;
   text-decoration: none;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
@@ -1862,6 +1865,13 @@ p {
 
   .paragraph-4-copy.first {
     font-size: 14px;
+  }
+
+  .link-block {
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
   }
 }
 
@@ -2358,6 +2368,12 @@ p {
   .heading-5-copy {
     margin-bottom: 20px;
   }
+
+  .link-block {
+    flex-flow: column;
+    align-items: center;
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2698,6 +2714,14 @@ p {
 
   .paragraph-4-copy, .paragraph-4-copy.first {
     font-size: 13px;
+  }
+
+  .link-block {
+    flex-flow: column;
+    flex: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
   }
 }
 
