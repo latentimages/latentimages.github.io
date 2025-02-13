@@ -1935,6 +1935,7 @@ p {
     max-width: 50%;
     margin-top: 20px;
     margin-bottom: 0;
+    padding-bottom: 20px;
   }
 
   .hero-left {
@@ -1978,9 +1979,11 @@ p {
   .column-1-title {
     flex-flow: row;
     flex: none;
+    order: -1;
     justify-content: flex-start;
     align-self: auto;
     align-items: center;
+    margin-bottom: 0;
     display: flex;
   }
 
@@ -2413,6 +2416,7 @@ p {
 
   .icon {
     max-width: 50%;
+    margin-top: 10px;
   }
 
   .wrap-2.a {
@@ -2443,9 +2447,9 @@ p {
   }
 
   .column-1-title {
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: stretch;
     font-size: 16px;
   }
 
