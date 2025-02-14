@@ -902,24 +902,32 @@ p {
 .image-2 {
   text-align: left;
   vertical-align: baseline;
+  flex-flow: column;
+  justify-content: center;
   max-width: 50px;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 10px;
+  display: block;
 }
 
 .image-3 {
   max-width: 50px;
   padding-bottom: 10px;
+  display: block;
 }
 
 .image-4 {
   max-width: 50px;
   padding-top: 0;
   padding-bottom: 10px;
+  display: block;
 }
 
 .image-5 {
   max-width: 50px;
   padding-bottom: 10px;
+  display: block;
 }
 
 .right-1-copy, .right-1-copy-copy {
@@ -936,6 +944,7 @@ p {
 .image-6 {
   max-width: 50px;
   padding-bottom: 10px;
+  display: block;
 }
 
 .text-block, .text-block-2, .text-block-3, .text-block-4, .text-block-5 {
@@ -1624,8 +1633,9 @@ p {
 
 .div-block-8 {
   flex-flow: column;
+  align-self: center;
   align-items: center;
-  display: flex;
+  display: block;
   position: static;
 }
 
@@ -1645,6 +1655,10 @@ p {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.link-9 {
+  color: var(--black);
 }
 
 @media screen and (max-width: 991px) {
