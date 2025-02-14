@@ -1608,7 +1608,7 @@ p {
   left: 0;
 }
 
-.button-4 {
+.button-4, .invisiblebutton {
   z-index: 999;
   background-color: #3898ec00;
   width: 100%;
