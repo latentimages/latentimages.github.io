@@ -1648,7 +1648,7 @@ p {
   flex-flow: column;
   align-self: center;
   align-items: center;
-  display: block;
+  display: flex;
   position: static;
 }
 
