@@ -1675,6 +1675,10 @@ p {
   color: var(--black);
 }
 
+.text-field {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .hero-section {
     justify-content: flex-end;
