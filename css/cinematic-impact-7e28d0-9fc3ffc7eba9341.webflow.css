@@ -1732,7 +1732,7 @@ p {
   grid-row-gap: 0px;
   -webkit-text-fill-color: inherit;
   background-color: #ebebeb;
-  background-image: url('../images/kaz.jpg');
+  background-image: url('../images/Flashlight.jpeg');
   background-position: 50%;
   background-repeat: repeat;
   background-size: cover;
@@ -3436,8 +3436,16 @@ p {
   order: -9999;
 }
 
+#w-node-_850c3c39-ee74-c53e-c972-21d168d519f4-caa2ec1c {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-bb076657-70f9-4cc1-71c4-472ca6831f29-caa2ec1c {
+  order: -9999;
+}
+
 @media screen and (max-width: 991px) {
-  #w-node-bb076657-70f9-4cc1-71c4-472ca6831f29-5ba56108, #w-node-a5fe303c-fd22-4c9c-3e0d-02e51231a3fa-5ba56109, #w-node-bb076657-70f9-4cc1-71c4-472ca6831f29-642f14d2, #w-node-bb076657-70f9-4cc1-71c4-472ca6831f29-ddb858fb, #w-node-bb076657-70f9-4cc1-71c4-472ca6831f29-26764d53 {
+  #w-node-bb076657-70f9-4cc1-71c4-472ca6831f29-5ba56108, #w-node-a5fe303c-fd22-4c9c-3e0d-02e51231a3fa-5ba56109, #w-node-bb076657-70f9-4cc1-71c4-472ca6831f29-642f14d2, #w-node-bb076657-70f9-4cc1-71c4-472ca6831f29-ddb858fb, #w-node-bb076657-70f9-4cc1-71c4-472ca6831f29-26764d53, #w-node-bb076657-70f9-4cc1-71c4-472ca6831f29-caa2ec1c {
     order: -9999;
   }
 }
@@ -3468,7 +3476,7 @@ p {
     place-self: auto;
   }
 
-  #w-node-a5fe303c-fd22-4c9c-3e0d-02e51231a3f3-5ba56109, #w-node-_52d97269-351b-364d-8923-fdc96a9adff1-642f14d2, #w-node-_52d97269-351b-364d-8923-fdc96a9adff1-ddb858fb, #w-node-_52d97269-351b-364d-8923-fdc96a9adff1-26764d53 {
+  #w-node-a5fe303c-fd22-4c9c-3e0d-02e51231a3f3-5ba56109, #w-node-_52d97269-351b-364d-8923-fdc96a9adff1-642f14d2, #w-node-_52d97269-351b-364d-8923-fdc96a9adff1-ddb858fb, #w-node-_52d97269-351b-364d-8923-fdc96a9adff1-26764d53, #w-node-_52d97269-351b-364d-8923-fdc96a9adff1-caa2ec1c {
     order: -9999;
     place-self: auto;
   }
