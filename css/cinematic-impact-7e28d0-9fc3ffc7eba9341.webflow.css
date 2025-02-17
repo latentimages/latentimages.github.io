@@ -1834,7 +1834,7 @@ p {
   grid-row-gap: 0px;
   -webkit-text-fill-color: inherit;
   background-color: #ebebeb;
-  background-image: url('../images/Flare-7.jpg');
+  background-image: url('../images/Flashlight.jpeg');
   background-position: 50%;
   background-repeat: repeat;
   background-size: cover;
@@ -1921,6 +1921,7 @@ p {
   grid-auto-columns: 1fr;
   justify-content: flex-start;
   align-items: center;
+  width: 100%;
   margin-top: 20px;
   display: flex;
 }
