@@ -1931,6 +1931,30 @@ p {
   display: block;
 }
 
+.herocin {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  -webkit-text-fill-color: inherit;
+  background-color: #ebebeb;
+  background-image: url('../images/Flashlight.jpeg');
+  background-position: 50%;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-clip: border-box;
+  flex-flow: column;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 250px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .hero-section {
     justify-content: flex-end;
@@ -2297,6 +2321,12 @@ p {
     padding-top: 0;
     padding-bottom: 20px;
     position: relative;
+  }
+
+  .herocin {
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 200px;
   }
 }
 
@@ -2903,6 +2933,19 @@ p {
     padding: 0;
     position: relative;
   }
+
+  .herocin {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 165px;
+    display: flex;
+    position: static;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3342,6 +3385,10 @@ p {
   .column-1-copy, .column-1-copy-copy, .column-1-copy-copy, .column-1-copy-copy, .column-1-copy-copy, .column-1-copy-copy, .column-1-copy-copy, .column-1-copy-copy-copy, .column-1-copy-copy-copy, .column-1-copy-copy-copy, .column-1-copy-copy-copy, .column-1-copy-copy-copy {
     height: auto;
     position: relative;
+  }
+
+  .herocin {
+    height: 100px;
   }
 }
 
