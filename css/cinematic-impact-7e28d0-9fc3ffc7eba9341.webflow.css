@@ -2880,6 +2880,22 @@ p {
   box-shadow: 0 3px 7px #00000008;
 }
 
+.accordion-parent {
+  width: 100%;
+  overflow: hidden;
+}
+
+.accordion-toggle {
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+  display: flex;
+}
+
+.dropdown-list-2 {
+  position: static;
+}
+
 @media screen and (max-width: 991px) {
   .hero-section {
     justify-content: flex-end;
