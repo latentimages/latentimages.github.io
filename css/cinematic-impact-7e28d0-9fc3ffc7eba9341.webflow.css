@@ -3454,7 +3454,7 @@ p {
 }
 
 .text-block-19 {
-  text-align: justify;
+  text-align: left;
   height: 140px;
   margin-bottom: 20px;
   margin-left: 20px;
@@ -3710,6 +3710,20 @@ p {
 
 .link-12 {
   color: #000;
+}
+
+.list-item-6, .list-item-7, .list-item-8, .rich-text-block-5 {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.paragraph-10 {
+  font-size: 18px;
+}
+
+.list-item-9, .list-item-10, .list-item-11 {
+  font-size: 18px;
+  line-height: 25px;
 }
 
 @media screen and (max-width: 991px) {
@@ -6622,6 +6636,7 @@ p {
   }
 
   .text-block-24 {
+    text-align: left;
     align-self: center;
     width: 200px;
     font-size: 16px;
