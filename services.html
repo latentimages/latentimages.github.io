@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Tue Apr 08 2025 17:23:59 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Tue Apr 08 2025 17:35:28 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="67f41e83794b0d29fc8514a8" data-wf-site="67acb5ec0ea0a8335ba56106" lang="en">
 <head>
   <meta charset="utf-8">
@@ -121,7 +121,7 @@ svg.arrow-separator {
             </select><label for="info-2" class="services-form-label">Additional Information (optional)</label>
             <div class="w-embed"><input type="text" name="honeypot" style="display: none;" autocomplete="off">
               <div class="cf-turnstile" data-sitekey="0x4AAAAAAA-u9XfAYUZ8QELR"></div>
-            </div><textarea id="Info-3" name="Info" maxlength="5000" data-name="Info" placeholder="" class="w-input"></textarea>
+            </div><textarea id="Info" name="Info" maxlength="5000" data-name="Info" placeholder="" class="w-input"></textarea>
             <div class="div-block-13"><input type="submit" data-wait="Please wait..." class="submit-button-services w-button" value="Submit">
               <div id="ResponseText" class="text-block-6"> </div>
             </div>
@@ -261,13 +261,20 @@ svg.trapezoidal-horizintal{
                     const fNameInput = document.querySelector(`input[name="${firstNameField}"]`);
                     const lNameInput = document.querySelector(`input[name="${lastNameField}"]`);
                     const emailInput = document.querySelector(`input[name="${emailField}"]`);
-                    const planInput = document.querySelector(`input[name="${planField}"]`);
-                    const infoInput = document.querySelector(`input[name="${infoField}"]`);
+                    const planInput = document.querySelector(`[name="${planField}"]`);
+                    const infoInput = document.querySelector(`[name="${infoField}"]`);
                     const responseText = document.getElementById(responseId);
                     if (!emailInput || !responseText) {
                         console.error(`❌ Missing email input or response text for ${htmlFormId}`);
                         return;
                     }
+    console.log("🚧 Field inputs:", {
+  fNameInput,
+  lNameInput,
+  emailInput,
+  planInput,
+  infoInput
+});
                     const formData = {
                         fields: [
                             { name: "referral", value: "Services page query" },
