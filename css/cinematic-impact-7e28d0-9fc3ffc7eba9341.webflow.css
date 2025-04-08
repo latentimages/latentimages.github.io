@@ -4146,7 +4146,7 @@ p {
     margin-top: 13px;
   }
 
-  .navigation-menu {
+  .navigation-menu-bottom {
     background-color: #000;
     border-bottom: 1px #ddd;
   }
@@ -4525,6 +4525,15 @@ p {
 
   .heading-17 {
     max-width: 700px;
+  }
+
+  .menu-button-top {
+    padding: 15px;
+  }
+
+  .navigation-menu-top {
+    background-color: #000;
+    border-bottom: 1px #ddd;
   }
 }
 
@@ -5191,7 +5200,7 @@ p {
     padding-right: 10px;
   }
 
-  .navigation-menu {
+  .navigation-menu-bottom {
     width: 100%;
     position: absolute;
     bottom: 100%;
@@ -5752,6 +5761,19 @@ p {
   .bold-text-10 {
     width: 100%;
   }
+
+  .menu-button-top {
+    margin-bottom: 0;
+    margin-right: 0;
+    overflow: visible;
+  }
+
+  .navigation-menu-top {
+    width: 100%;
+    position: absolute;
+    bottom: 100%;
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -6222,6 +6244,13 @@ p {
     height: 100px;
   }
 
+  .navigation-menu-bottom {
+    width: auto;
+    position: absolute;
+    bottom: 100%;
+    overflow: hidden;
+  }
+
   .div-block-16 {
     grid-template-rows: auto auto auto auto;
     grid-template-columns: 1fr;
@@ -6521,8 +6550,15 @@ p {
     text-align: center;
   }
 
+  .navigation-bar-2-landing {
+    height: 80px;
+    position: relative;
+  }
+
   .container-15-landing {
+    width: 90%;
     display: block;
+    position: absolute;
   }
 
   .past-events-grid {
@@ -6672,6 +6708,13 @@ p {
 
   .wide-service, .start-now-form {
     max-width: 220px;
+  }
+
+  .navigation-menu-top {
+    width: auto;
+    position: relative;
+    bottom: auto;
+    overflow: visible;
   }
 }
 
