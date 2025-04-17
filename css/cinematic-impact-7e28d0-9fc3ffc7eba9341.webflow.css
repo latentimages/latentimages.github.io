@@ -427,7 +427,8 @@ p {
   flex-direction: column;
   align-items: center;
   max-width: none;
-  padding-top: 10px;
+  margin-top: 0;
+  padding-top: 40px;
   padding-bottom: 40px;
   display: flex;
 }
@@ -3010,6 +3011,7 @@ p {
   min-width: 800px;
   max-width: 900px;
   margin-top: 40px;
+  margin-bottom: 20px;
   padding-top: 0;
   display: flex;
 }
@@ -3145,6 +3147,7 @@ p {
 }
 
 .testimonal-item {
+  margin-top: 40px;
   display: flex;
 }
 
@@ -3559,22 +3562,22 @@ p {
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   margin-top: 40px;
-  display: grid;
+  display: block;
 }
 
 .testimonial-div {
   flex: 1;
-  min-width: 75px;
-  max-width: 75px;
-  min-height: 75px;
-  max-height: 75px;
+  min-width: 100px;
+  max-width: 100px;
+  min-height: 100px;
+  max-height: 100px;
 }
 
 .testimonial-framework {
   vertical-align: baseline;
   border-radius: 50px;
-  max-width: 75px;
-  max-height: 75px;
+  max-width: 100px;
+  max-height: 100px;
   display: inline-block;
   overflow: hidden;
 }
@@ -3585,8 +3588,8 @@ p {
 }
 
 .text-block-22 {
-  min-height: 60px;
-  margin-bottom: 10px;
+  min-height: 50px;
+  margin-bottom: 0;
   font-family: Exo, sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -4519,7 +4522,13 @@ p {
     max-height: 75px;
   }
 
+  .testimonial-framework {
+    max-width: 75px;
+    max-height: 75px;
+  }
+
   .text-block-22 {
+    margin-bottom: 10px;
     font-size: 16px;
   }
 
@@ -5560,6 +5569,12 @@ p {
     margin-top: 20px;
   }
 
+  .testimonal-item {
+    flex-flow: row;
+    width: 430px;
+    max-width: 430px;
+  }
+
   .text-block-16 {
     max-width: 250px;
     margin-bottom: 0;
@@ -5744,9 +5759,14 @@ p {
   }
 
   .text-block-22 {
-    max-width: 250px;
-    margin-bottom: 0;
-    font-size: 18px;
+    max-width: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  .text-block-23 {
+    margin-left: 20px;
   }
 
   .text-block-24 {
@@ -6694,8 +6714,8 @@ p {
   }
 
   .testimonial-framework {
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 75px;
+    max-height: 75px;
     display: inline-block;
   }
 
