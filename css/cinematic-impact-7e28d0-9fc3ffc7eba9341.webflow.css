@@ -2927,12 +2927,8 @@ p {
   position: static;
 }
 
-.image-20 {
+.image-20, .image-21 {
   width: 300px;
-}
-
-.image-21 {
-  width: 30%;
 }
 
 .image-22 {
@@ -3316,6 +3312,7 @@ p {
   color: #fff;
   text-align: left;
   flex: none;
+  width: 70%;
   max-width: 450px;
   margin-bottom: 20px;
   font-family: Roboto, sans-serif;
@@ -3727,6 +3724,100 @@ p {
 .list-item-9, .list-item-10, .list-item-11 {
   font-size: 18px;
   line-height: 25px;
+}
+
+.framework-subhead-marketing {
+  color: #fff;
+  text-align: left;
+  flex: none;
+  width: auto;
+  max-width: 450px;
+  margin-bottom: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.framework-subhead-funding {
+  color: #fff;
+  text-align: left;
+  flex: none;
+  width: 70%;
+  max-width: 450px;
+  margin-bottom: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.framework-subhead-hiring {
+  color: #fff;
+  text-align: left;
+  flex: none;
+  width: 90%;
+  max-width: 450px;
+  margin-bottom: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.framework-head-leadership {
+  color: #ff0;
+  text-align: left;
+  flex: none;
+  max-width: 450px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.framework-subhead-leadership {
+  color: #fff;
+  text-align: left;
+  flex: none;
+  width: 90%;
+  max-width: 450px;
+  margin-bottom: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.framework-head-clients {
+  color: #ff0;
+  text-align: left;
+  flex: none;
+  max-width: 450px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.framework-subhead-clients {
+  color: #fff;
+  text-align: left;
+  flex: none;
+  width: 70%;
+  max-width: 450px;
+  margin-bottom: 20px;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.text-block-22-copy {
+  min-height: 50px;
+  margin-bottom: 10px;
+  font-family: Exo, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 991px) {
@@ -4311,6 +4402,10 @@ p {
     max-width: 88%;
   }
 
+  .image-21 {
+    width: 300px;
+  }
+
   .image-22 {
     width: auto;
   }
@@ -4339,6 +4434,7 @@ p {
     width: auto;
     min-width: auto;
     max-width: 700px;
+    margin-bottom: 0;
   }
 
   .bullet-one-mini {
@@ -4543,6 +4639,15 @@ p {
   .navigation-menu-top {
     background-color: #000;
     border-bottom: 1px #ddd;
+  }
+
+  .framework-head-leadership, .framework-head-clients {
+    font-size: 30px;
+  }
+
+  .text-block-22-copy {
+    margin-bottom: 10px;
+    font-size: 16px;
   }
 }
 
@@ -5477,7 +5582,7 @@ p {
 
   .image-21 {
     width: auto;
-    max-width: 250px;
+    max-width: 300px;
   }
 
   .div-block-48 {
@@ -5664,6 +5769,7 @@ p {
 
   .framework-subhead {
     text-align: justify;
+    width: 70%;
     margin-bottom: 20px;
     font-size: 20px;
   }
@@ -5793,6 +5899,55 @@ p {
     position: absolute;
     bottom: 100%;
     overflow: hidden;
+  }
+
+  .framework-subhead-marketing {
+    text-align: justify;
+    width: auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .framework-subhead-funding, .framework-subhead-hiring {
+    text-align: justify;
+    width: 70%;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .framework-head-leadership {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .framework-subhead-leadership {
+    text-align: justify;
+    width: 90%;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .framework-head-clients {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .framework-subhead-clients {
+    text-align: justify;
+    width: 70%;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .text-block-22-copy {
+    max-width: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 16px;
   }
 }
 
@@ -6599,6 +6754,7 @@ p {
 
   .framework-subhead {
     text-align: left;
+    width: auto;
     margin-bottom: 20px;
     font-size: 16px;
   }
@@ -6736,6 +6892,41 @@ p {
     bottom: auto;
     overflow: visible;
   }
+
+  .framework-subhead-marketing, .framework-subhead-funding, .framework-subhead-hiring {
+    text-align: left;
+    width: auto;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .framework-head-leadership {
+    text-align: center;
+    max-width: none;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .framework-subhead-leadership {
+    text-align: left;
+    width: auto;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .framework-head-clients {
+    text-align: center;
+    max-width: none;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .framework-subhead-clients {
+    text-align: left;
+    width: auto;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
 }
 
 #w-node-_72ccf75e-400c-5400-a9b0-040453de2c96-5ba56109, #w-node-_72ccf75e-400c-5400-a9b0-040453de2c97-5ba56109, #w-node-_72ccf75e-400c-5400-a9b0-040453de2c98-5ba56109, #w-node-d0a8d7b3-0839-7c52-4444-61e29e7cd7f5-5ba56109, #w-node-_9365fc6e-091a-b925-9b31-1a980b7932c7-5ba56109, #w-node-_72ccf75e-400c-5400-a9b0-040453de2c99-5ba56109, #w-node-_72ccf75e-400c-5400-a9b0-040453de2c9c-5ba56109, #w-node-b5433ef3-3e5c-8a3e-f756-c389e8294fad-5ba56109, #w-node-b5433ef3-3e5c-8a3e-f756-c389e8294fae-5ba56109, #w-node-b5433ef3-3e5c-8a3e-f756-c389e8294faf-5ba56109, #w-node-b5433ef3-3e5c-8a3e-f756-c389e8294fb0-5ba56109, #w-node-b5433ef3-3e5c-8a3e-f756-c389e8294fb1-5ba56109, #w-node-b5433ef3-3e5c-8a3e-f756-c389e8294fb2-5ba56109, #w-node-b5433ef3-3e5c-8a3e-f756-c389e8294fb3-5ba56109, #w-node-b5433ef3-3e5c-8a3e-f756-c389e8294fb4-5ba56109, #w-node-b5433ef3-3e5c-8a3e-f756-c389e8294fb5-5ba56109, #w-node-_724641df-83a3-8e17-3667-90f2d5c71464-5ba56109, #w-node-_14b436e6-5149-a02c-d6dd-6501275591da-5ba56109, #w-node-_65381163-ffed-cfeb-1142-6d0d5b82b8ad-5ba56109 {
@@ -6787,6 +6978,10 @@ p {
 
 #w-node-a5fe303c-fd22-4c9c-3e0d-02e51231a3fa-fc8514a8 {
   order: -9999;
+}
+
+#w-node-ac0dc8ce-cb14-9c34-2a64-1f1a22a2f840-d39e374e, #w-node-ef9cf178-9aa8-3bb1-738e-13086df654a9-d39e374e, #w-node-_47175337-4904-c0a9-902e-505564bec51d-d39e374e, #w-node-_9e2d2450-923e-293a-dcf6-f0c47fa13d77-d39e374e, #w-node-_4ffac92b-41fb-20d6-a031-552b8961ad9c-d39e374e, #w-node-_4ffac92b-41fb-20d6-a031-552b8961ada0-d39e374e, #w-node-_4ffac92b-41fb-20d6-a031-552b8961ada4-d39e374e, #w-node-_4ffac92b-41fb-20d6-a031-552b8961ada8-d39e374e, #w-node-ac0dc8ce-cb14-9c34-2a64-1f1a22a2f840-a0b89dca, #w-node-ef9cf178-9aa8-3bb1-738e-13086df654a9-a0b89dca, #w-node-_47175337-4904-c0a9-902e-505564bec51d-a0b89dca, #w-node-_9e2d2450-923e-293a-dcf6-f0c47fa13d77-a0b89dca, #w-node-_4ffac92b-41fb-20d6-a031-552b8961ad9c-a0b89dca, #w-node-_4ffac92b-41fb-20d6-a031-552b8961ada0-a0b89dca, #w-node-_4ffac92b-41fb-20d6-a031-552b8961ada4-a0b89dca, #w-node-_4ffac92b-41fb-20d6-a031-552b8961ada8-a0b89dca, #w-node-ac0dc8ce-cb14-9c34-2a64-1f1a22a2f840-b0a91999, #w-node-ef9cf178-9aa8-3bb1-738e-13086df654a9-b0a91999, #w-node-_47175337-4904-c0a9-902e-505564bec51d-b0a91999, #w-node-_9e2d2450-923e-293a-dcf6-f0c47fa13d77-b0a91999, #w-node-_4ffac92b-41fb-20d6-a031-552b8961ad9c-b0a91999, #w-node-_4ffac92b-41fb-20d6-a031-552b8961ada0-b0a91999, #w-node-_4ffac92b-41fb-20d6-a031-552b8961ada4-b0a91999, #w-node-_4ffac92b-41fb-20d6-a031-552b8961ada8-b0a91999, #w-node-ac0dc8ce-cb14-9c34-2a64-1f1a22a2f840-7d29b52c, #w-node-ef9cf178-9aa8-3bb1-738e-13086df654a9-7d29b52c, #w-node-_47175337-4904-c0a9-902e-505564bec51d-7d29b52c, #w-node-_9e2d2450-923e-293a-dcf6-f0c47fa13d77-7d29b52c, #w-node-_4ffac92b-41fb-20d6-a031-552b8961ad9c-7d29b52c, #w-node-_4ffac92b-41fb-20d6-a031-552b8961ada0-7d29b52c, #w-node-_4ffac92b-41fb-20d6-a031-552b8961ada4-7d29b52c, #w-node-_4ffac92b-41fb-20d6-a031-552b8961ada8-7d29b52c {
+  justify-self: auto;
 }
 
 @media screen and (max-width: 991px) {
