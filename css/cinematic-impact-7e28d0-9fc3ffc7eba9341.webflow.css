@@ -2450,6 +2450,7 @@ p {
 
 .div-block-29 {
   align-self: auto;
+  width: 50%;
   max-width: none;
   padding-top: 0;
   padding-left: 20px;
@@ -2475,12 +2476,15 @@ p {
 
 .div-block-30 {
   flex-flow: row;
-  justify-content: center;
+  order: -1;
+  justify-content: flex-start;
   align-self: center;
   align-items: flex-start;
   width: auto;
-  max-width: 250px;
-  max-height: 250px;
+  max-width: none;
+  height: auto;
+  max-height: none;
+  padding-bottom: 0;
   display: flex;
 }
 
@@ -2699,7 +2703,8 @@ p {
 }
 
 .div-block-43 {
-  width: 50%;
+  width: 100%;
+  display: flex;
 }
 
 .div-block-44 {
@@ -2711,7 +2716,7 @@ p {
 
 .rsvp {
   background-color: #000;
-  display: none;
+  display: block;
 }
 
 .list-item, .list-item-2, .list-item-3, .list-item-4, .list-item-5 {
@@ -2780,12 +2785,31 @@ p {
   display: block;
 }
 
-.past-event-desc, .events-desc {
+.past-event-desc {
   justify-content: flex-start;
   align-items: center;
   width: auto;
   margin-top: 0;
   padding-top: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.events-desc {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  object-fit: fill;
+  flex-flow: row;
+  flex: 0 auto;
+  order: 0;
+  justify-content: flex-start;
+  align-self: auto;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
   padding-left: 0;
   display: flex;
 }
@@ -3835,7 +3859,7 @@ p {
 .text-block-26 {
   justify-content: center;
   align-items: flex-start;
-  display: flex;
+  display: none;
 }
 
 .div-block-72 {
@@ -3867,6 +3891,17 @@ p {
   align-items: flex-start;
   margin-top: 40px;
   display: flex;
+}
+
+.current-events-thumbnail-copy-copy {
+  width: auto;
+  max-width: 380px;
+  max-height: none;
+  display: block;
+}
+
+.div-block-75 {
+  width: 40%;
 }
 
 @media screen and (max-width: 991px) {
@@ -4367,11 +4402,15 @@ p {
   }
 
   .div-block-30 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     flex-flow: row;
     flex: 1;
+    order: 0;
     justify-content: center;
     align-self: flex-start;
     align-items: flex-start;
+    max-width: 50%;
     height: 100%;
     display: block;
   }
@@ -4433,10 +4472,17 @@ p {
     display: block;
   }
 
-  .past-event-desc, .events-desc {
+  .past-event-desc {
     flex-flow: row;
     justify-content: flex-start;
     align-items: center;
+  }
+
+  .events-desc {
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
   }
 
   .navigation-link-2-copy {
@@ -4697,6 +4743,15 @@ p {
   .text-block-22-copy {
     margin-bottom: 10px;
     font-size: 16px;
+  }
+
+  .current-events-thumbnail-copy-copy {
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: none;
+    max-height: 250px;
+    display: block;
   }
 }
 
@@ -5464,10 +5519,15 @@ p {
     display: flex;
   }
 
+  .div-block-29 {
+    width: auto;
+  }
+
   .div-block-30 {
     flex: 0 auto;
     align-self: center;
-    max-width: 200px;
+    width: 100%;
+    max-width: 400px;
     max-height: 200px;
     margin-bottom: 10px;
     display: flex;
@@ -5569,6 +5629,10 @@ p {
     text-align: justify;
     margin-bottom: 40px;
     font-size: 14px;
+  }
+
+  .div-block-43 {
+    padding-left: 20px;
   }
 
   .list-item, .list-item-2, .list-item-3, .list-item-4, .list-item-5 {
@@ -5997,6 +6061,15 @@ p {
     margin-bottom: 10px;
     margin-left: 20px;
     font-size: 16px;
+  }
+
+  .current-events-thumbnail-copy-copy {
+    width: 90%;
+    max-width: none;
+    max-height: 200px;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -6513,6 +6586,7 @@ p {
   }
 
   .div-block-29 {
+    width: auto;
     padding-left: 0;
   }
 
@@ -6525,6 +6599,7 @@ p {
     flex-flow: row;
     flex: 0 auto;
     width: 100%;
+    max-width: 400px;
     display: flex;
   }
 
@@ -6592,7 +6667,13 @@ p {
     flex-flow: column;
   }
 
-  .div-block-43, .div-block-44 {
+  .div-block-43 {
+    flex-flow: column;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .div-block-44 {
     width: 100%;
   }
 
@@ -7004,6 +7085,18 @@ p {
     align-self: auto;
     align-items: flex-start;
     display: flex;
+  }
+
+  .current-events-thumbnail-copy-copy {
+    align-self: center;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+
+  .div-block-75 {
+    width: auto;
+    padding-bottom: 20px;
   }
 }
 
