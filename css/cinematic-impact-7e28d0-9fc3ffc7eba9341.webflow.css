@@ -2033,7 +2033,7 @@ p {
   grid-row-gap: 0px;
   -webkit-text-fill-color: inherit;
   background-color: #ebebeb;
-  background-image: url('../images/wscucevent.jpg');
+  background-image: url('../images/67e6c435c1f12a6c2863225c_wscucevent.jpg');
   background-position: 50%;
   background-repeat: repeat;
   background-size: cover;
@@ -2653,7 +2653,8 @@ p {
 }
 
 .div-block-41 {
-  width: 80%;
+  width: 100%;
+  margin-top: 40px;
 }
 
 .heading-9-copy {
@@ -2710,6 +2711,7 @@ p {
 
 .rsvp {
   background-color: #000;
+  display: none;
 }
 
 .list-item, .list-item-2, .list-item-3, .list-item-4, .list-item-5 {
@@ -3818,6 +3820,53 @@ p {
   font-family: Exo, sans-serif;
   font-size: 18px;
   font-weight: 400;
+}
+
+.div-block-71 {
+  align-self: center;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.bold-text-11 {
+  flex: 0 auto;
+}
+
+.text-block-26 {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+.div-block-72 {
+  order: 0;
+  align-self: center;
+  width: 80%;
+}
+
+.video {
+  flex: 0 auto;
+  align-self: auto;
+  width: 100%;
+  height: auto;
+}
+
+.div-block-73 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 280px;
+  display: flex;
+}
+
+.div-block-74 {
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
@@ -6324,8 +6373,9 @@ p {
   }
 
   .heading-5-copy {
+    text-align: center;
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .paragraph-4-copy, .paragraph-4-copy.first {
@@ -6926,6 +6976,34 @@ p {
     width: auto;
     margin-bottom: 20px;
     font-size: 16px;
+  }
+
+  .div-block-71 {
+    margin-bottom: 20px;
+  }
+
+  .text-block-26 {
+    text-align: center;
+  }
+
+  .div-block-72 {
+    display: block;
+  }
+
+  .div-block-73 {
+    width: 300px;
+    height: auto;
+  }
+
+  .div-block-74 {
+    margin-top: 20px;
+  }
+
+  .bold-text-12 {
+    justify-content: flex-start;
+    align-self: auto;
+    align-items: flex-start;
+    display: flex;
   }
 }
 
