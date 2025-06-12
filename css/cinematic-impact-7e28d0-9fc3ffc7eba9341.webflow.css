@@ -3904,6 +3904,11 @@ p {
   width: 40%;
 }
 
+.div-block-76 {
+  width: 100%;
+  margin-top: 40px;
+}
+
 @media screen and (max-width: 991px) {
   .hero-section {
     justify-content: flex-end;
