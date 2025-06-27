@@ -2658,7 +2658,8 @@ p {
 
 .div-block-41 {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 0;
+  margin-bottom: 40px;
 }
 
 .heading-9-copy {
@@ -3906,7 +3907,8 @@ p {
 
 .div-block-76 {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 0;
+  padding-bottom: 40px;
 }
 
 @media screen and (max-width: 991px) {
